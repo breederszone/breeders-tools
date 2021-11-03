@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Breeders Tools em ReactJS :rocket:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este teste foi criada usando [ReactJS](https://pt-br.reactjs.org/).
 
-## Available Scripts
+## Setup :gear:
 
-In the project directory, you can run:
+# Como começar a desenvolver :clipboard:
 
-### `yarn start`
+1. Antes de começar, tenha certeza que seu ambiente está pronto para o desenvolvimento.
+2. Clone esse repositório usando o comando `git clone < project-url.git >`.
+3. Instale as dependências do projeto usando `yarn`.
+4. Use o comando `yarn start` para iniciar um servidor local.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Boas práticas :thumbsup:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### GIT
 
-### `yarn test`
+#### Nomeando as branches
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As branches de desenvolvimento devem ser criadas a partir da branch dev, fazendo o checkout com o comando`git checkout dev`.
 
-### `yarn build`
+1. Caso a branch seja de uma nova feature, crie com o nome `feature/branch-name` com o comando `git checkout -b feature/branch-name`.
+2. Caso a branch seja de uma correção, crie com o nome `fix/branch-name` com o comando `git checkout -b fix/branch-name`.
+3. Caso a branch seja de uma release, crie com o nome `release/branch-name` com o comando `git checkout -b release/branch-name`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Lembre-se de criar o nome das branches em inglês, usando o padrão do ES6, com o nome em minúsculas e separados por hífen.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Padrão de commits
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Os commits no Git podem ser feito em português e descrevendo bem o que as ações presentes nesse commit. Lembre-se de fazer commits ao menos uma vez ao dia. Você também pode fazer vários commits para separar bem o que está entrando no repositório. Imaginando um commit de correção do texto de um botão, você poderia usar o comando `git commit -m "Corrigindo retorno login"` e o comando `git push` para enviar o código e o commit para o repositório.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Você também pode fazer commits com código 'quebrado' no repositório, lembrando de adicionar as iniciais de `Work In Progress` no início da mensagem do commit, por exemplo: `git commit -m "[WIP] Corrigindo retorno login"`.
