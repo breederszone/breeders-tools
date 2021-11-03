@@ -1,0 +1,16 @@
+{
+  "language": "language",
+  "calculator": "calculator",
+  "calculate": "calculate",
+  "result": "result",
+  "miningHR": "you get {{ESB}} per hour.",
+  "mining6HRs": "you get {{ESB}} every 6 hours.",
+  "mining24HRs": "you get {{ESB}} every day.",
+  "mining1Week": "you get {{ESB}} every week.",
+  "mining1Month": "you get {{ESB}} every month.",
+  "close": "close",
+  "tools": "other tools",
+  "getIDS": "get your IDs to stake",
+  "error": "error",
+  "errormsg": "error when requesting information, please try again later."
+}
